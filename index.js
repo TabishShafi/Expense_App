@@ -1,4 +1,4 @@
-import Web3 from "web3";
+import "./node_modules/web3/dist/web3.min.js";
     const ABI =
 	[
 		{
