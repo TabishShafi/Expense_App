@@ -170,6 +170,9 @@ async function printList() {
 
 }
 
+
+document.getElementById("addExpense").addEventListener("click", addExpense);
+
 async function addExpense()
 {
 	const _description= document.getElementById("expense-description").value;
@@ -180,7 +183,7 @@ async function addExpense()
 	document.getElementById("expense-amount").value="";
 	location.reload();
 }
-
+document.getElementById("addIncome").addEventListener("click", addIncome);
 async function addIncome()
 {
 	const _description= document.getElementById("income-description").value;
